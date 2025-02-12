@@ -8,8 +8,8 @@
     tools:context=".MainActivity">
 
     <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="wrap_content"
+        android:id="@+id/imageButton_Gmail"
+        android:layout_width="61dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="136dp"
         android:layout_marginTop="284dp"
@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imageButton_Google"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="284dp"

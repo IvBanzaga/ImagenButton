@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ImagenButton</string>
+    <string name="IB1">Descargar</string>
+    <string name="IB2">Aceptar</string>
 </resources>
