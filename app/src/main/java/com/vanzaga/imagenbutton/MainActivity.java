@@ -1,6 +1,8 @@
 package com.vanzaga.imagenbutton;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,4 +23,13 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+
+    public void boton_descarga (View view) {
+        Toast.makeText(this, "Descarga de ficheros", Toast.LENGTH_SHORT).show();
+    }
+
+    public void boton_compartir (View view) {
+        Toast.makeText(this, "Compartir ficheros", Toast.LENGTH_SHORT).show();
+    }
+
 }
